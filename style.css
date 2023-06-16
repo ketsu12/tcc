@@ -71,6 +71,8 @@ body {
   font-weight: 400;
   border: none;
   padding: 0 155px 0 65px;
+  position: absolute;
+  transform: translateX(-55%);
   background-color: transparent;
 }
 .input-box .button {
@@ -116,12 +118,12 @@ body {
 .books{
   overflow: hidden;
   text-align: center;
-  width: 265px;
+  width: 240px;
   height: 400px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   border-radius: 1.2rem;
   margin: 2rem;    
   font-size: 18px;
@@ -129,15 +131,16 @@ body {
 .books1{
   overflow: hidden;
   text-align: center;
-  width: 265px;
+  width: 240px;
   height: 400px;
   padding: 2rem;
   display: flex;
+  justify-content: end;
   flex-direction: column;
-  justify-content: center;
   border-radius: 1.2rem;
   margin: 2rem;    
   font-size: 18px;
+  cursor: pointer;
 }
 .NavAlpha {
   position: absolute;
@@ -157,3 +160,20 @@ body {
   color: white;
   text-decoration: none;
 }
+.books1{
+  display: flex;
+  align-items: center;
+}
+.titulo{
+color: white;
+font-size: 48px;
+text-align: center;
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);;
+}
+.nomelivro{
+  text-align: center;
+}
+  
